@@ -5,38 +5,42 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ranga Store</title>
-  <link rel="stylesheet" href="./css/style.css" />
-  <!-- Latest compiled and minified CSS -->
+  <title>IJ's Store</title>
+  <!--============================================ icon ===========================================-->
+  <link rel="icon" href="images/icon-img.png">
+  <!--=========================================== style ===========================================-->
+  <link rel="stylesheet" href="css/style.css" />
+  <!--================================= Latest compiled and minified CSS ==========================-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
 
-  <!-- google Montserrat  font  -->
+  <!--======================================= google Montserrat  font  ===========================-->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!--=========================================== font awesome ===================================-->
+  <script src="https://kit.fontawesome.com/a95a31e10a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header></header>
-  <main class="main">
+  <main class="main" >
     <div class="search-field">
       <div class="search-box">
         <input id="input-field" class="search-field" type="text" />
-        <button type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
-          autocomplete="off" id="search-btn" onclick="loadProducts()">
-          Search
-        </button>
+        <button  style="background: olivedrab;" type="button" class="btn btn-primary search-button" data-toggle="button" aria-pressed="false"
+          autocomplete="off" id="search-btn" onclick="loadProducts()"><i class="fas fa-search"></i></button>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-9 col-lg-9 col-sm-7">
+         <div class="col-md-9 col-lg-9 col-sm-7 "> 
         <div id="all-products" class="">
-          <h1></h1>
+          
         </div>
       </div>
-      <div class="col-md-3 col-lg-3 col-sm-5 cart-main">
-        <div class="cart" id="my-cart">
+        <div class="col-md-3 col-lg-3 col-sm-5 cart-main ">
+        <div class="cart" id="my-cart" style="background: rgb(240, 229, 229);">
           <table class="table">
             <thead>
               <h1>My-Cart</h1>
@@ -50,7 +54,7 @@
             <tbody>
               <tr>
                 <th>Total Added-Products:</th>
-                <td>$ <span id="total-Products">0</span></td>
+                <td><i class="fas fa-shopping-cart"></i><span id="total-Products">  0</span></td>
                 <td></td>
                 <td></td>
               </tr>
@@ -80,7 +84,7 @@
             </tbody>
           </table>
           <div class="parces text-center">
-            <button class="btn btn-primary text-center">Buy Now</button>
+            <button class="btn  text-center" style="background: rgb(43, 63, 2); color: white;">Buy Now</button>
           </div>
         </div>
       </div>
@@ -88,7 +92,7 @@
   </main>
   <footer></footer>
 
-  <!-- add javascript  file  -->
+  <!--======================================= add javascript  file  ======================================-->
   <script src="./js/app.js"></script>
 </body>
 

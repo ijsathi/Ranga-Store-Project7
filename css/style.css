@@ -12,6 +12,7 @@ body {
   outline: none;
   border: none;
 }
+
 .search-box {
   border: 1px solid rgb(3, 118, 211);
   width: 281px;
@@ -23,13 +24,12 @@ body {
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 19px;
-  /* margin-left: 20px; */
+  margin-left: 49px;
+ 
 }
 #all-products {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  /* border: 1px solid black; */
   text-align: center;
   width: 100%;
   margin: auto;
@@ -43,7 +43,8 @@ body {
 .single-product:hover {
   box-shadow: 4px 4px 7px gray;
   border-radius: 10px;
-  border: 1px solid cyan;
+  border: 1px solid rgb(54, 80, 3);
+  background:rgb(214, 240, 175);
 }
 .product-image {
   width: 150px;
@@ -51,7 +52,6 @@ body {
 }
 .cart {
   width: 350px;
-  /* border: 1px solid green; */
   padding: 10px;
   box-shadow: 10px 10px 20px gray;
   border-radius: 5px;
@@ -68,7 +68,6 @@ body {
   }
   .cart {
     width: 300px;
-    /* border: 1px solid green; */
     padding: 10px;
     box-shadow: 10px 10px 20px gray;
     border-radius: 5px;
